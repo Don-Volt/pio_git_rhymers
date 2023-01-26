@@ -7,24 +7,25 @@ import edu.kis.vh.nursery.factory.Rhymersfactory;
 
 public class DefaultRhymersFactory implements Rhymersfactory {
 
-	@Override
-	public defaultCountingOutRhymer GetStandardRhymer() {
-		return new defaultCountingOutRhymer();
-	}
+    @Override
+    public defaultCountingOutRhymer getStandardRhymer() {
+        return new defaultCountingOutRhymer();
+    }
 
-	@Override
-	public defaultCountingOutRhymer GetFalseRhymer() {
-		return new defaultCountingOutRhymer();
-	}
+    @Override
+    public defaultCountingOutRhymer getFalseRhymer() {
+        return new defaultCountingOutRhymer();
+    }
 
-	@Override
-	public defaultCountingOutRhymer GetFIFORhymer() {
-		return new FIFORhymer();
-	}
+    @Override
+    public defaultCountingOutRhymer getFIFORhymer() {
+        return new FIFORhymer();
+    }
 
-	@Override
-	public defaultCountingOutRhymer GetHanoiRhymer() {
-		return new HanoiRhymer();
-	}
+    @Override
+    public defaultCountingOutRhymer getHanoiRhymer() {
+        return new HanoiRhymer();
+    }
 
 }
+//alt + strzalka pozwala na szybkie przelaczanie miedzy plikami co jest mega wygodne
